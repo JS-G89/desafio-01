@@ -1,0 +1,46 @@
+
+
+.tela-login{
+    width: 350px;
+    height: auto;
+    margin: auto;
+    border: 3px solid#004B89;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+label{
+    font-size: 20px;
+}
+.campo{
+    margin-top: 8px;
+}
+input,
+    #btn-logar{
+        width: 100%;
+        padding: 8px;
+        border: 2px solid #004b89;
+        border-radius: 5px;
+    }
+    #btn-logar{
+        margin-top: 15px;
+        background-color: var(--cor_primaria);
+        border: none;
+        color: #fff;
+        font-weight: 600px;
+    } 
+    #btn-logar:hover{
+        background-color: var(--cor_secundaria);
+        cursor: pointer;
+    }
+     .esqueci-minha-senha{
+        text-align: right;
+        font-style: italic;
+        margin-top: 3px;
+        
+    }
+    #loading{
+        display: none;
+    }
+   
